@@ -14,5 +14,14 @@ git push --force (update supper)
 git reset --hard HEAD~2
 git push --force
 
+tạo nhánh (new branch)
+
+git branch name_branch
+git checkout -b name_branch
+git push -u remote name_branch
+git push -u https://github.com/Sonnb1999/test_cmd_git.git update_1
+
+
+
 
 -->
