@@ -21,7 +21,16 @@ git checkout -b name_branch
 git push -u remote name_branch
 git push -u https://github.com/Sonnb1999/test_cmd_git.git update_1
 
+add new branch and pull all code to new branch
+git push --set-upstream origin updated_1
+git merge name_branch
 
 
+delete branch
 
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
 -->
