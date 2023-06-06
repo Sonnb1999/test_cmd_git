@@ -18,6 +18,8 @@ tạo nhánh (new branch)
 
 git branch name_branch
 git checkout -b name_branch
+git push -u origin name_branch
+or
 git push -u remote name_branch
 git push -u https://github.com/Sonnb1999/test_cmd_git.git update_1
 
