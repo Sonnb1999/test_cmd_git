@@ -11,7 +11,8 @@ git push --force (update supper)
 
     nếu muốn về head 2
 
-git reset --hard HEAD~2
+git reset --hard HEAD~2 (delete head~0 and head~1)
+git reset -- soft HEAD~2 (restore head~0-1 and not delete code)
 git push --force
 
 tạo nhánh (new branch)
